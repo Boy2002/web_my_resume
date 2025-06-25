@@ -11,12 +11,12 @@ import {
 import { Label } from "@/components/ui/label";
 import { useTranslations } from "next-intl";
 import { Button } from "../ui/button";
+import Link from "next/link";
 import {
   SideInRight1,
   SideInRight2,
   SideInRight3,
-} from "@/components/animation/side_in_right";
-import Link from "next/link";
+} from "../animation/side_in_right";
 
 export function CardData() {
   const t = useTranslations("HomePage");
@@ -51,7 +51,9 @@ export function CardData() {
             <Label className="text-lg">{t("carddetail2_2")}</Label>
           </CardContent>
           <CardFooter className="flex justify-end items-end">
-            <Button>{t("more")}</Button>
+            <Link href="/skills">
+              <Button>{t("more")}</Button>
+            </Link>
           </CardFooter>
         </Card>
       </SideInRight2>
@@ -67,7 +69,9 @@ export function CardData() {
             <Label className="text-xl">{t("carddetail3-3")}</Label>
           </CardContent>
           <CardFooter className="flex justify-end items-end">
-            <Button>{t("more")}</Button>
+            <Link href="/projects">
+              <Button>{t("more")}</Button>
+            </Link>
           </CardFooter>
         </Card>
       </SideInRight3>

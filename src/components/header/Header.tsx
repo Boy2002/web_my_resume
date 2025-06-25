@@ -59,14 +59,14 @@ export default function Header() {
 
   return (
     <header
-      className={`bg-gray-900/50 backdrop-blur-sm text-white flex flex-row justify-between items-center px-60 py-4 fixed top-0 left-0 w-full z-50 transition-transform duration-300 ease-in-out ${
+      className={`bg-[#111827]/50 backdrop-blur-sm text-white flex flex-row justify-between items-center px-60 py-4 fixed top-0 left-0 w-full z-50 transition-transform duration-300 ease-in-out ${
         hidden ? "-translate-y-full" : "translate-y-0"
       }  shadow-md`}
     >
       <div className="space-x-2">
         <Link href="/" className="hover:text-gray-900">
           <h1 className="text-xl font-semibold">BoyToDev</h1>
-          <p className="pressStart text-sm">
+          <p className="pressStart text-[10px]">
             {text}
             <Cursor cursorStyle="|" />
           </p>
@@ -85,14 +85,14 @@ export default function Header() {
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuLink asChild>
-                <Link href="#skill" className="hover:text-gray-900">
+                <Link href="/skills" className="hover:text-gray-900">
                   {t("nav2")}
                 </Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuLink asChild>
-                <Link href="#project" className="hover:text-gray-900">
+                <Link href="/projects" className="hover:text-gray-900">
                   {t("nav3")}
                 </Link>
               </NavigationMenuLink>
