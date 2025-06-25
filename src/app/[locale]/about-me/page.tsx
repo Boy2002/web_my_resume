@@ -31,6 +31,10 @@ export default function Home() {
           className="absolute top-60 left-1/2 -translate-x-1/2 rounded-xl shadow-lg z-0"
         />
       </div>
+      <div>
+        <p>การศึกษา</p>
+        <p>การศึกษา</p>
+      </div>
     </div>
   );
 }

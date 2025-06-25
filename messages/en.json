@@ -30,7 +30,23 @@
     "subcard":"shortly",
 
     "more": "Read More"
+  },
+    "Projects": {
+    "projectheader":"Projects",
 
+    "project_title_1": "Website Cooperative Education",
+    "project_subtitle_1": "Internship progress tracking website",
+    "project_front_1": "Frontend: HTML/CSS/JavaScript",
+    "project_back_1": "Backend: Java Spring MVC",
 
+    "project_title_2": "IT Service Request System",
+    "project_subtitle_2": "Internal support request management",
+    "project_front_2": "Frontend: React",
+    "project_back_2": "Backend: Node.js",
+
+    "project_title_3": "Sales Task Tracker",
+    "project_subtitle_3": "Sales KPI tracking system",
+    "project_front_3": "Frontend: Next.js",
+    "project_back_3": "Backend: Firebase"
   }
 }

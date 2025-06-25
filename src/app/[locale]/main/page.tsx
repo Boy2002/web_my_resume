@@ -14,8 +14,8 @@ export default function MainPage() {
   const whoDetails = [t("whodetail1"), t("whodetail2")];
 
   return (
-    <div className="pt-20">
-      <div className="relative flex items-center justify-center h-152 w-full p-30">
+    <div className="pt-19">
+      <div className="relative flex items-center justify-center h-158 w-full p-30">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-50 z-0"
           style={{
