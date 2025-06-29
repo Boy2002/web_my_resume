@@ -7,13 +7,15 @@
   "HomePage": {
     "hi":"Hello!",
 
-    "title": "Welcome to my universe.",
+    "title": "Welcome to my website.",
 
     "about": "Go to the about page",
 
-    "who":"Who am I?",
-    "whodetail1": "I wasn't born with privilege, but I began with courage.",
-    "whodetail2": "I don't wait to be understood — I build what the world can't ignore.",
+    
+   "who": "Who am I?",
+   "whodetail1": "Hi, I’m Boy, a developer who takes learning and self-improvement seriously.",
+   "whodetail2": "I believe dedication and commitment will help me grow together with the team.",
+
 
     "cardtitle1": "About Me",
     "carddetail1": "Hi, I’m Boy. I graduated with a Bachelor’s degree in Information Technology from Maejo University, Chiang Mai, with a GPA of 3.30.",
